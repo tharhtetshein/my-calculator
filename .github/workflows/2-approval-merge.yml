@@ -41,7 +41,7 @@ jobs:
       - name: 🏷️ Create Release Tag
         id: tag
         run: |
-          RELEASE_TAG="v1.0.0"
+          RELEASE_TAG="v1.1.0"
           git tag -a "${RELEASE_TAG}" -m "Release ${RELEASE_TAG}"
           echo "release_tag=${RELEASE_TAG}" >> $GITHUB_OUTPUT
 
